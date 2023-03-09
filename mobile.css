@@ -1,0 +1,131 @@
+/* header */
+
+#main-header{
+    background-color: var(--primary-color);
+    padding: 10px ;
+}
+
+.huddle{
+    width: 100px;
+}
+
+.font{
+    font-size: small;
+    text-align: center;
+}
+
+.btn-light{
+    padding: 5px;
+    width: 80px;
+}
+
+.small-pink{
+    margin-top: 30px;
+}
+
+
+#main-header .container .second{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+}
+
+#main-header .container .second h1{
+    font-size: 1.5rem;
+}
+
+#section{
+    background-color:#fff;
+    position: relative;
+    padding: 3rem 0.5rem;
+}
+
+#section .container .third{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+    padding: 3rem 1.5rem;
+    gap: 40px;
+    height: 600px;
+    
+}
+
+#section .container .fourth{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 3rem 1.5rem;
+    gap: 40px;
+    height: 600px;
+    
+}
+
+#section .container .fifth{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+    padding: 3rem 1.5rem;
+    gap: 40px;
+    margin-bottom: 10rem;
+    height: 600px;
+
+}
+
+#section .between{
+    font-size: 10px;
+    width: 350px;
+    
+}
+
+.big-pink{
+    background-color: var(--button-color);
+    padding: 10px 30px;
+    border-radius: 15px;
+    font-size: 8px;
+    width: 80x;
+}
+
+#section .between h3{
+    padding: 0px;
+}
+
+#main-footer{
+    padding: 6rem 1rem;
+}
+
+#main-footer .container .grid{
+    display: block;
+}
+
+#main-footer .grid .contact div{
+    padding: 10px 0px;
+}
+
+#main-footer .grid .links ul  li,
+#main-footer .grid .others ul li{
+    
+    margin-left: 0px;
+}
+
+#main-footer .socials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#main-footer .grid .socials >:first-child i{
+    padding: 10px 0;
+    margin-left: 20px;
+    text-align: center;
+}
+
+#main-footer .grid .socials >:last-child{
+    margin-top: 5px;
+    text-align: center;
+}

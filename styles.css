@@ -1,0 +1,246 @@
+:root{
+    --primary-color: hsl(193, 100%, 96%);
+    --secondary-color:hsl(208, 11%, 55%);
+    --footer-color:hsl(192, 100%, 9%);
+    --button-color:hsl(322, 100%, 66%);
+    --max-width:1100px;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400,700;
+}
+
+/* Utility */
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-weight: bold;
+    
+}
+
+.font{
+    font-size:large;
+    text-align: justify;
+   
+  
+}
+
+.btn{
+    display: inline-block;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+ul{
+    list-style: none;
+}
+
+.container{
+    max-width: var(--max-width);
+    margin: auto;
+    
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.small-pink{
+    background: var(--button-color);
+    padding: 10px 25px;
+    border-radius: 20px;
+    font-size: xx-small;
+    width: 170px;
+    margin-top: 10px;
+}
+
+.small-pink:hover{
+    color:gray;
+}
+
+.big-pink{
+    background-color: var(--button-color);
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-size: small;
+    width: 180px;
+}
+
+.btn-light{
+    background-color:#fff;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-size: xx-small;
+    width: 120px;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+/* header */
+
+#main-header{
+    background-color: var(--primary-color);
+    padding: 1.5rem 4rem;
+}
+
+#main-header .container .first{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+#main-header .container .second{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 100px;
+}
+
+#main-header .container .second h1{
+    font-size: 3rem;
+} 
+
+/* Section */
+#section{
+    background-color:#fff;
+    padding: 7rem 4rem;
+    position: relative;
+    
+}
+
+
+#section .third,
+#section .fourth,
+#section .fifth{
+    padding: 20px 30px;
+    gap: 150px;
+    text-align: justify;
+    
+}
+
+#section .container .third{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    box-shadow: 3px 3px 3px rgba(211, 211, 211, 0.30),-3px -3px 3px rgba(211, 211, 211, 0.30);
+    border-radius: 20px;
+    margin-bottom: 20px;
+    
+    
+   
+} 
+
+#section .container .fourth{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    box-shadow: 3px 3px 3px rgba(211, 211, 211, 0.30),-3px -3px 3px rgba(211, 211, 211, 0.30);
+    border-radius: 20px;
+    margin-bottom: 20px;
+
+}
+
+#section .container .fifth{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    box-shadow: 3px 3px 3px rgba(211, 211, 211, 0.30),-3px -3px 3px rgba(211, 211, 211, 0.30);
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+#section .between{
+    background-color:#fff;
+    box-shadow: -3px -3px 3px rgba(211, 211, 211, 0.30);
+    border-radius: 20px;
+    display: inline-block;
+    padding: 40px 60px;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -60px;
+    width: 800px;
+}
+
+/* Footer */
+#main-footer{
+    background-color: var(--footer-color);
+    color: #fff;
+    padding:  5rem 4rem;
+    font-size: small;
+    text-align: justify;
+    
+}
+
+#main-footer .container .grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 1.5rem;
+    
+}
+
+
+
+
+#main-footer .grid .location{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+#main-footer .grid .phone{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#main-footer .grid .email{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#main-footer .grid .contact div{
+    margin-bottom: 20px;
+    padding: 10px ;
+}
+
+#main-footer .grid .links ul  li,
+#main-footer .grid .others ul li{
+    padding: 10px 0 ;
+    margin-left: 50px;
+}
+
+#main-footer .grid .socials >:first-child i{
+    padding: 10px 0;
+    margin-left: 20px;
+}
+
+#main-footer .grid .socials >:last-child{
+    margin-top: 130px;
+}
+
+#main-footer a:hover{
+    color: var(--button-color);
+}
